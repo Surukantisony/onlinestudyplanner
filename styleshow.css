@@ -1,0 +1,102 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#plans-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.plan {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.plan h2 {
+    margin-top: 0;
+}
+
+.plan p {
+
+    margin-bottom: 10px;
+  
+}
+
+.delete-button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right; /* Align button to the right */
+    margin-top: -25px;
+}
+
+.delete-button:hover {
+    background-color: #d63c3c;
+}
+.edit-button {
+    background-color: #007bff; /* Blue color for button */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 8px 16px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+}
+
+.edit-button:hover {
+    background-color: #0056b3; 
+}
+
+p a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align:center;
+     float: left; 
+     margin: 5px 250px;
+}
+
+p a:hover {
+    background-color: #0056b3;
+}
+p1 {
+    text-align: right; 
+}
+
+p1 a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+     float: right; 
+       margin: 5px 250px;
+}
+
+p1 a:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+ 
